@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ArrayOfFilterCondition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FilterCondition>
+    <Property1>Andrey</Property1>
+    <Property2 />
+    <PropertyName>Name</PropertyName>
+    <FilterMethod>PropertyEqualsToValue</FilterMethod>
+  </FilterCondition>
+</ArrayOfFilterCondition>

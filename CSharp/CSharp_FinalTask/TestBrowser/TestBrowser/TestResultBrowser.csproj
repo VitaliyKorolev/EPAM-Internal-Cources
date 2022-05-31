@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ExpressionTreeFilter\FilterLib\FilterLib.csproj" />
+    <ProjectReference Include="..\..\Serialization\BinarySearchTreeLib\BinarySearchTreeLib.csproj" />
+    <ProjectReference Include="..\DAL\Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BinarySearchTreeLib">
+      <HintPath>..\..\Serialization\BinarySearchTreeLib\bin\Debug\net5.0\BinarySearchTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="FilterLib">
+      <HintPath>..\..\ExpressionTreeFilter\FilterLib\bin\Debug\net5.0\FilterLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Services">
+      <HintPath>..\Services\obj\Debug\net5.0\Services.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

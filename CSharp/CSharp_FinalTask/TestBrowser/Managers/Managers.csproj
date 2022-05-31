@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ExpressionTreeFilter\FilterLib\FilterLib.csproj" />
+    <ProjectReference Include="..\..\Serialization\BinarySearchTreeLib\BinarySearchTreeLib.csproj" />
+    <ProjectReference Include="..\DAL\Services.csproj" />
+  </ItemGroup>
+
+</Project>

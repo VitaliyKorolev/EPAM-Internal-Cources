@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DownloadManagerLib\DownloadManagerLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SharedResLib">
+      <HintPath>..\..\..\Multithreading_Basics\SharedResLib\SharedResLib\bin\Debug\net5.0\SharedResLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ImageDownloaderLib">
+      <HintPath>..\..\..\Async_Await\ImageDownloader\ImageDownloaderLib\bin\Debug\net5.0\ImageDownloaderLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SharedResLib">
+      <HintPath>..\..\..\Multithreading_Basics\SharedResLib\SharedResLib\bin\Debug\net5.0\SharedResLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

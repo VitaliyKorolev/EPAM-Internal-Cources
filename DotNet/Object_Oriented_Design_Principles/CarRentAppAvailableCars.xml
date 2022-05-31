@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AvaibleCars>
+  <Car>
+    <NumberOfPassengers>4</NumberOfPassengers>
+    <EngineCapacity>2.8</EngineCapacity>
+    <Mileage>12412</Mileage>
+    <YearOfManufacture>2005</YearOfManufacture>
+    <InsuranceAmount>100000</InsuranceAmount>
+    <RegistrationNumber>h450tr45</RegistrationNumber>
+    <CostOfRent>1000</CostOfRent>
+  </Car>
+  <Car>
+    <NumberOfPassengers>4</NumberOfPassengers>
+    <EngineCapacity>1.8</EngineCapacity>
+    <Mileage>47612</Mileage>
+    <YearOfManufacture>2015</YearOfManufacture>
+    <InsuranceAmount>100000</InsuranceAmount>
+    <RegistrationNumber>h684ol22</RegistrationNumber>
+    <CostOfRent>3000</CostOfRent>
+  </Car>
+  <Car>
+    <NumberOfPassengers>4</NumberOfPassengers>
+    <EngineCapacity>1.6</EngineCapacity>
+    <Mileage>35412</Mileage>
+    <YearOfManufacture>2006</YearOfManufacture>
+    <InsuranceAmount>100000</InsuranceAmount>
+    <RegistrationNumber>h754de44</RegistrationNumber>
+    <CostOfRent>4000</CostOfRent>
+  </Car>
+  <Car>
+    <NumberOfPassengers>6</NumberOfPassengers>
+    <EngineCapacity>3.2</EngineCapacity>
+    <Mileage>43512</Mileage>
+    <YearOfManufacture>2001</YearOfManufacture>
+    <InsuranceAmount>100000</InsuranceAmount>
+    <RegistrationNumber>j121et11</RegistrationNumber>
+    <CostOfRent>2000</CostOfRent>
+  </Car>
+</AvaibleCars>

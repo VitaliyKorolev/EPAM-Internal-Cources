@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArrayOfStudentData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StudentData>
+    <Name>Anton</Name>
+    <LastName>Black</LastName>
+    <TestName>Math</TestName>
+    <DateOfTest>2022-03-23T00:00:00+03:00</DateOfTest>
+    <TestScore>5</TestScore>
+  </StudentData>
+  <StudentData>
+    <Name>Anton</Name>
+    <LastName>Smith</LastName>
+    <TestName>Biology</TestName>
+    <DateOfTest>2022-03-23T00:00:00+03:00</DateOfTest>
+    <TestScore>3</TestScore>
+  </StudentData>
+  <StudentData>
+    <Name>Valeri</Name>
+    <LastName>Yellow</LastName>
+    <TestName>Biology</TestName>
+    <DateOfTest>2022-03-23T00:00:00+03:00</DateOfTest>
+    <TestScore>4</TestScore>
+  </StudentData>
+</ArrayOfStudentData>
